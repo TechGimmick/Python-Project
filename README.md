@@ -17,7 +17,9 @@ All **user authentication** is handled via MongoDB (customers) and **predefined 
 ### 🔑 Authentication  
 - Secure login with **hashed passwords (SHA-256)**.  
 - **Admins** have predefined credentials.  
-- **Customers** can self-register (stored in MongoDB).  
+- **Customers** can self-register (stored in MongoDB).
+- <img width="977" height="770" alt="image" src="https://github.com/user-attachments/assets/da7b2a99-4732-4422-aa16-f960328fde90" />
+
 
 ### 👨‍💼 Admin Features  
 - Add new products with name, price, and quantity.  
