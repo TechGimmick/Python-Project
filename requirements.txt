@@ -1,2 +1,5 @@
 stremlit
 pymongo
+reduce
+functools
+hashlib
