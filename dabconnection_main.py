@@ -136,6 +136,7 @@ def logout():
 # Registration page (only for customers)
 def registration_page():
     st.header("Register New Customer")
+    st.text_input("Admin Username: Admin \n Admin Password : Admin123")
     with st.form("register_form"):
         new_username = st.text_input("Username").replace(' ','')
         new_password = st.text_input("Password", type='password')
@@ -240,4 +241,5 @@ else:
 
     # Product List Section
     st.header("Product List")
+
     update_product_list()
